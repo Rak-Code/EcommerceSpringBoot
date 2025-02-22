@@ -1,0 +1,32 @@
+http://localhost:8080/api/users
+{
+  "username": "BERU",
+  "email": "beru@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+http://localhost:8080/api/categories
+{
+  "name": "Kids"
+}
+
+http://localhost:8080/api/products
+{
+  "name": "Cotton Shirt",
+  "description": "Premium quality cotton Shirt",
+  "price": 2599.00,
+  "categoryId": 1 
+}
+
+http://localhost:8080/api/orders/1
+[
+  {
+    "productId": 1,
+    "quantity": 2
+  },
+  {
+    "productId": 3,
+    "quantity": 1
+  }
+]
